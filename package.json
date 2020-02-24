@@ -1,0 +1,21 @@
+{
+  "name": "fbm",
+  "version": "1.0.0",
+  "description": "in-class experiment with fracional brownian motion",
+  "main": "main.js",
+  "dependencies": {
+    "browserify": "^16.5.0",
+    "budo": "^11.6.3",
+    "gl-toy": "^2.0.3",
+    "glsl-fractal-brownian-noise": "^1.1.0",
+    "glsl-noise": "^0.0.0",
+    "glslify": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx budo main.js:bundle.js --live -- -t glslify"
+  },
+  "author": "Charlie Roberts",
+  "license": "MIT"
+}
